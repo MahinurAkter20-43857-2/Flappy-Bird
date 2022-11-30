@@ -87,8 +87,8 @@ glBegin(GL_POLYGON);
 
 		for(i=0;i<=(2*3.14);i+=0.0001)
 		{
-            x=35*cos(i);
-		    y=35*sin(i);
+           		 x=35*cos(i);
+	  		  y=35*sin(i);
 
 			glVertex2f(x+mx,y+my);
 
